@@ -18,7 +18,7 @@ interface Question {
   incorrect_answers: string[];
 }
 
-const TIMER_PER_QUESTION = 15;
+const TIMER_PER_QUESTION = 30;
 
 const Quiz = ({ navigation, route }: any) => {
   const { category } = route.params;
